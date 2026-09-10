@@ -1,0 +1,23 @@
+{
+  "name": "弈境五子棋 · Gomoku Mark",
+  "short_name": "弈境五子棋",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "description": "离线运行的本地五子棋与 AI 对局。",
+  "theme_color": "#e9dfca",
+  "background_color": "#e9dfca",
+  "icons": [
+    {
+      "src": "./icons/gomoku-mark-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/gomoku-mark-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

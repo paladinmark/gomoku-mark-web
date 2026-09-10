@@ -1,0 +1,54 @@
+Gomoku Mark third-party notices
+
+Background music
+----------------
+Pingsha Luoyan / 平沙落雁
+Performed by Charlie Huang
+Source: https://commons.wikimedia.org/wiki/File:Pingsha_Luoyan.ogg
+License: Creative Commons Attribution 2.5
+https://creativecommons.org/licenses/by/2.5/
+
+The source OGG is distributed without editing or transcoding.
+
+Rapfi
+-----
+Source: https://github.com/dhbloo/rapfi/tree/3aedf3a2ab0ab710a9f3d00e57d5287ceb864894
+License: GNU General Public License version 3
+License text: /rapfi/COPYING.txt
+Build and source provenance: /rapfi/SOURCE.md
+
+Rapfi Networks
+--------------
+Source: https://github.com/dhbloo/rapfi-networks/tree/918b757a129258e9e765f77fe17d507c2bb1a60b
+License: CC0 1.0 Universal
+License text: /rapfi/NETWORKS-LICENSE.txt
+
+React runtime
+-------------
+React 18.3.1, React DOM 18.3.1, and Scheduler 0.23.2
+Source: https://github.com/facebook/react
+License: MIT
+License text: /licenses/React-MIT.txt
+
+Electron desktop runtime
+------------------------
+Electron 43.2.0
+Source: https://github.com/electron/electron
+License: MIT
+License text: /licenses/Electron-MIT.txt
+
+The Windows portable package also includes Electron's root LICENSE file and
+the generated LICENSES.chromium.html notices for Chromium and bundled runtime
+components.
+
+Gomoku Mark studio audio (original project assets)
+-------------------------------------------------
+Still Air / 静息: studio-air.wav
+Stone recordings: studio-black.wav, studio-white.wav
+Game cues: studio-start.wav, studio-win.wav, studio-loss.wav, studio-draw.wav
+
+These assets are synthesized from the original note sequences and signal
+definitions in scripts/generate-studio-audio.mjs. No external recordings,
+samples, or music models are inputs. Distributed under the project MIT license;
+see LICENSE.txt. The classic recording above retains its own attribution and
+license. Listening acceptance is tracked separately from asset provenance.
