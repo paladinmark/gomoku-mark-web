@@ -1,6 +1,6 @@
-/* global Rapfi, RapfiDiagnostics */
+/* global RapfiLoader, RapfiDiagnostics */
 
-importScripts("../rapfi-diagnostics.js", "./rapfi-single-simd128.js");
+importScripts(new URL('../rapfi-loader.js', self.location.href).href + self.location.search);
 
 const MAX_MEMORY_BYTES = 128 * 1024 * 1024;
 let stdoutSink = null;
@@ -13,11 +13,10 @@ function receiveLine(sink, line) {
 
 function loadRapfi() {
   if (modulePromise === null) {
-    modulePromise = Rapfi({
-      locateFile: (name) => new URL(name, self.location.href).href,
+    modulePromise = RapfiLoader.load({
       onReceiveStdout: (line) => receiveLine(stdoutSink, line),
       onReceiveStderr: (line) => receiveLine(stderrSink, line),
-    }).then((module) => {
+    }, '../rapfi-diagnostics.js').then((module) => {
       for (const command of [
         "START 15",
         "YXSHOWINFO",
@@ -71,7 +70,7 @@ self.onmessage = async ({ data: request }) => {
           : {
               type: "ANALYSIS_ERROR",
               requestId: request.requestId,
-              code: "PREPARE_ERROR",
+              code: error.code || "PREPARE_ERROR",
               message,
             }
       );

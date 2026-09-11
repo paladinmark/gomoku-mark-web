@@ -1,11 +1,11 @@
 {
-  "name": "弈境五子棋 · Gomoku Mark",
-  "short_name": "弈境五子棋",
+  "name": "五子棋研习室 · Gomoku Forge",
+  "short_name": "五子棋研习室",
   "id": "./",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "description": "离线运行的本地五子棋与 AI 对局。",
+  "description": "通过实战、复盘和针对性训练学习五子棋，支持离线使用。",
   "theme_color": "#e9dfca",
   "background_color": "#e9dfca",
   "icons": [
