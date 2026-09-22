@@ -1,9 +1,9 @@
 {
-  "version": "1.7.1-eval.1",
-  "commit": "d40cd39029a15ff34c1c0e2cc6cf6c926534d285",
+  "version": "1.7.1-eval.2",
+  "commit": "1a80d9be582eac198741a9faf148a129e7472a7c",
   "dirty": false,
-  "builtAt": "2026-09-21T08:44:11.946Z",
+  "builtAt": "2026-09-22T06:37:01.167Z",
   "engineAssets": "c7c29eff0df3b1f3",
   "channel": "evaluation",
-  "difficultyProfileHash": "366634a851244ad646e01b06e094a4ca6cad937fdd7fb57c36bcf98ffcff0aa7"
+  "difficultyProfileHash": "e073a5db05777fcccc42af146da45f376b5f08d2cc8d701e3c6ed49f361e1f64"
 }
