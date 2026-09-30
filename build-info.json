@@ -1,8 +1,8 @@
 {
   "version": "1.8.0-dev.1",
-  "commit": "4a9356f937686344452828eb0f9ab2cb40573d49",
+  "commit": "9d8f69cbe8727336cd58c19217eeb984e6d49dd2",
   "dirty": false,
-  "builtAt": "2026-09-28T10:36:24.821Z",
+  "builtAt": "2026-09-30T04:24:52.273Z",
   "engineAssets": "c7c29eff0df3b1f3",
   "channel": "development",
   "difficultyBaseline": {
