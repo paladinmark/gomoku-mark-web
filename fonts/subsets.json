@@ -1,0 +1,30 @@
+[
+  {
+    "file": "forge-sans-sc-ui.woff2",
+    "sha256": "4ea4ee367adf160074bfce5c367c9e2d6bb32feaea4f79fd746f61ede483d0ad",
+    "bytes": 325620,
+    "sourceSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+    "glyphs": 1129,
+    "axis": {
+      "wght": [
+        100,
+        900
+      ]
+    },
+    "method": "FontTools Unicode subset of source UI copy; no glyph redesign"
+  },
+  {
+    "file": "forge-sans-tc-ui.woff2",
+    "sha256": "8ed9f41fa6b7556e52b89713ecbf268f4c0941786a1846e627dbf18ca0ed0af7",
+    "bytes": 283036,
+    "sourceSha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+    "glyphs": 966,
+    "axis": {
+      "wght": [
+        100,
+        900
+      ]
+    },
+    "method": "FontTools Unicode subset of source UI copy; no glyph redesign"
+  }
+]

@@ -32,7 +32,7 @@ License text: /licenses/React-MIT.txt
 
 Electron desktop runtime
 ------------------------
-Electron 43.2.0
+Electron 43.7.6
 Source: https://github.com/electron/electron
 License: MIT
 License text: /licenses/Electron-MIT.txt
@@ -52,3 +52,10 @@ definitions in scripts/generate-studio-audio.mjs. No external recordings,
 samples, or music models are inputs. Distributed under the project MIT license;
 see LICENSE.txt. The classic recording above retains its own attribution and
 license. Listening acceptance is tracked separately from asset provenance.
+
+
+Noto Sans SC / Noto Sans TC UI subsets
+Copyright 2014-2021 Adobe (http://www.adobe.com/), Reserved Font Name: Source.
+SIL Open Font License 1.1; license copies: fonts/NotoSansSC-OFL.txt and fonts/NotoSansTC-OFL.txt.
+Source: https://github.com/google/fonts/tree/main/ofl/notosanssc and /ofl/notosanstc.
+Unicode subsets retain the original variable weight axis. Source and subset hashes: fonts/sources.json and fonts/subsets.json.
