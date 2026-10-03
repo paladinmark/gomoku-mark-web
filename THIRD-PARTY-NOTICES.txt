@@ -59,3 +59,16 @@ Copyright 2014-2021 Adobe (http://www.adobe.com/), Reserved Font Name: Source.
 SIL Open Font License 1.1; license copies: fonts/NotoSansSC-OFL.txt and fonts/NotoSansTC-OFL.txt.
 Source: https://github.com/google/fonts/tree/main/ofl/notosanssc and /ofl/notosanstc.
 Unicode subsets retain the original variable weight axis. Source and subset hashes: fonts/sources.json and fonts/subsets.json.
+
+Rapfi Corresponding Source delivery
+-----------------------------------
+Rapfi developers; copyright and authors: see AUTHORS in the exact upstream source.
+Component source package: Rapfi-GPLv3-Corresponding-Source-3aedf3a2.zip.
+For a matching v1.8 runtime release, obtain this separately downloadable source
+archive beside the runtime downloads at https://paladinmark.itch.io/gomoku-forge.
+The source archive includes exact engine/network revisions, licenses, configuration
+and standalone RAPFI-BUILD.md reproduction instructions. No private repository
+access or developer credentials may be required. A release must not be distributed
+if the corresponding source listing is unavailable. Publication is a separate step.
+This notice describes the Rapfi component only; it does not determine the legal
+license boundary between Rapfi and the host application.

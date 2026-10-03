@@ -1,10 +1,10 @@
 {
-  "version": "1.8.0-dev.1",
-  "commit": "c81fa92420f57b98077f9ec188042e43df0d8a6a",
+  "version": "1.8.0",
+  "commit": "f83de02bdecc9ade0884dea6c2fb0278fb58e8c3",
   "dirty": false,
-  "builtAt": "2026-10-01T08:00:55.024Z",
+  "builtAt": "2026-10-03T02:31:36.531Z",
   "engineAssets": "c7c29eff0df3b1f3",
-  "channel": "development",
+  "channel": "release",
   "difficultyBaseline": {
     "id": "v1.7.x-easy35",
     "sourceCommit": "1a80d9be582eac198741a9faf148a129e7472a7c",
